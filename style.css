@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(82, 56, 201);
+    color: rgb(219, 232, 255);
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    height: 150px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+.title{
+    text-align: center;
+}
+
+.navigation{
+    height: 100px;
+    background-color: rgb(136, 161, 206);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 46px;
+    margin-bottom: 40px;
+
+}
+
+.navigation>a{
+   color:white;
+   text-decoration: none;
+   font-size: 18px;
+}
+.navigation>a:hover{
+    background-color: rgb(138, 124, 124);
+    color: #dbe4f2;
+    border-radius: 20px;
+    padding: 30px;
+}
+li{
+    font-size: 13px;
+}
+
+section{
+   width: 300px;
+   border: 2px solid rgb(218, 219, 220);
+   border-radius: 20px;
+   padding: 30px;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+section>h2{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(58, 103, 187);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 182px;
+    background-color: #3589FF;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-width: 0;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #1572f3
+}
